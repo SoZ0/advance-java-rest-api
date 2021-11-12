@@ -14,6 +14,7 @@ public class Main {
     public Main(){}
 
     public static void main(String[] args) throws IOException{
+        
         File databasePath = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getFile()+"data.db");
         new Database(databasePath);
         if(!Database.createDatabase()){

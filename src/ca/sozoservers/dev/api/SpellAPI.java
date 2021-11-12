@@ -25,7 +25,6 @@ public class SpellAPI implements HTTPHandler{
             try{
                 Integer id = Integer.parseInt(queries.get("id")); 
                 SpellModel model = new SpellModel();
-                System.out.println(id);
                 model.id = id;
                 if(!Database.get(model, true)){
                     spellNotFoundError(socket);
