@@ -2,15 +2,12 @@ package ca.sozoservers.dev;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.InetSocketAddress;
-
-import com.sun.net.httpserver.HttpServer;
 
 import ca.sozoservers.dev.api.SpellAPI;
 import ca.sozoservers.dev.database.Database;
 import ca.sozoservers.dev.models.SpellModel;
 import ca.sozoservers.dev.server.HTTPServer;
-import ca.sozoservers.dev.spells.Spell;
+
 
 public class Main {
 

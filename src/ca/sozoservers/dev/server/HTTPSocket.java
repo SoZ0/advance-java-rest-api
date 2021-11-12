@@ -59,4 +59,8 @@ public class HTTPSocket {
         body += response;
         print.print(body);
     }
+
+    public Socket getSocket(){
+        return socket;
+    }
 }

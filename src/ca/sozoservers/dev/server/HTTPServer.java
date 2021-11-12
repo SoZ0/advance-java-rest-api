@@ -4,8 +4,6 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import ca.sozoservers.dev.server.HTTPMethod.Method;
-
 public class HTTPServer {
 
     private int port, backlog;
